@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+while (true) {
+int limit, multiple;
+
+cout << "Enter a positive limit (or a negative number to quit): ";
+	cin >> limit
+	if (limit < 0) break;
+	
+
+cout << "Enter a positive multiple (or a negative number to quit): ";
+	cin >> mulitple; 
+	if (multiple < 0) break;
+
+	int sum = 0;
+	cout << "Sum of multiples of: << multiple << " up to " << limit << "is: ";
+
+	for (int i = multiple; i = <= limit; i += multiple) {
+	
+	sum += i;
+	
+	cout << i << (i + multiple <= limit ? " + " : " = ");
+	}
+	cout << sum << endl;
+	}
+	
+	cout << "Terminated." << endl;
+
+	return 0;
+}
+
+
+( 1st in loop ; second in loop  ; last sequence )
+
